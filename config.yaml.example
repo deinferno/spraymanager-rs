@@ -1,0 +1,15 @@
+#Local web api
+web_hostname: localhost
+web_port: 9999
+
+web_ssl: true
+web_privkey: privkey.pem 
+web_cert: fullchain.pem 
+
+master_key: YourSecretHmacKey
+round_interval: 60
+max_size: 6
+max_width: 1024
+max_height: 1024
+max_files: 5
+path: ./sprays
